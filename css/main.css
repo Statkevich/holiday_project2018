@@ -169,40 +169,58 @@ button, a {
   font-size: 10.42px; 
 }
 
-/*ббббббб */ 
-.info__subtitle::before {
+/*description*/ 
+.title__description::before {
   content:" "; 
   display: block;
   width: 56px; 
   height: 9px; 
   background-color: #000000;
+  margin-right: 49px; 
 
 }
 
-.info__subtitle { 
+.title__description { 
   display: flex; 
-  display: row;
-  align-items: flex-start; 
-  font-size: 20.83px; 
+  font-family: Roboto, sans-serif; 
+  font-size: 20.83px;
+  font-style: bold;  
   line-height: 27.08px; 
   color: #000000; 
-  width: 462px;  
+  width: 456px; 
+  margin-top: 34px;  
  
 }
 
 .info__block {
   display: flex;
   display: row; 
-  align-content: stretch;
+  justify-content: space-between;
   width: 848px; 
   flex-wrap: nowrap;
   margin:auto;
+  margin-top: 59px; 
 }
-.info__block2 {
-  display: flex;
-  display: row; 
-  align-content: stretch;
-  width: 848px; 
-  flex-wrap: nowrap;
-  margin:auto;
+
+.info__wrapper::before {
+  content:" "; 
+  display: block;
+  width: 16px; 
+  height: 16px; 
+  background-color: #000000;
+
+}
+
+.info__wrapper {
+ margin-left: 16px; 
+} 
+
+.info__title {
+  font-size: 36.67px;
+  line-height: 50px;  
+}
+
+.info__text {
+  font-size: 16.67px; 
+  line-height: 25px; 
 }
