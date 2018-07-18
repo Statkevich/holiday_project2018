@@ -23,7 +23,7 @@ $(function () {
     //========= this code to start slider================
     $('.demands__slider__list').slick({
         slidesToShow: 1,
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 600,
         autoplaySpeed: 3000,
@@ -33,11 +33,11 @@ $(function () {
         swipeToSlide: true
     });
     // ========= this code for customer button =====================
-    $('demands__text .slider__btn--l').on('click',function(e){
+    $('.demands__text .slider__btn--l').on('click',function(e){
         e.preventDefault();
-        $('demands__text .slick-prev').trigger('click');
+        $('.demands__text .slick-prev').trigger('click');
     });
-    $('demands__text .slider__btn--r').on('click',function(e){
+    $('.demands__text .slider__btn--r').on('click',function(e){
         e.preventDefault();
         $('.demands__text .slick-next').trigger('click');
     });
