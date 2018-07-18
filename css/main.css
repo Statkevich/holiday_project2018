@@ -195,7 +195,6 @@ button, a {
 
 .info__block {
   display: flex;
-  display: row; 
   justify-content: space-between;
   width: 848px; 
   flex-wrap: nowrap;
@@ -238,7 +237,6 @@ button, a {
 
 .skills__block {
   display: flex;
-  display: row; 
   justify-content: space-between;
   width: 848px; 
   flex-wrap: nowrap;
@@ -277,9 +275,11 @@ width: 325px;
 
 /*demans style*/
 
-.demand__wrapper {
-  margin-bottom: 165px;
-}
+/* Убрала этот маржин, поскольку изображение заднего фона следующего блока Программа начинается на этом пустом фоне*/
+
+/*.demand__wrapper {*/
+  /*margin-bottom: 165px;*/
+/*}*/
 
 .demands__title {
   font-size: 36.67px;
@@ -298,7 +298,90 @@ width: 325px;
   width: 479px; 
   height: 296px; 
   font-size: 16.67px; 
-  line-height: 25px; 
+  line-height: 25px;
+  position: relative;
+  -webkit-box-shadow: -6px 6px 10px 0px #e9e9e9;
+  box-shadow: -6px 6px 10px 0px #e9e9e9;
+}
+.demands__slider__list  .slider__item {
+  padding: 40px 32px 48px; }
+/*==================program======================== */
+.program {
+  padding-top: 160px;
+  padding-bottom: 65px;
+}
+.program .title span{
+  font-size: 58px;
+  line-height: 65px;
+  margin-bottom: 56px;
+}
+@supports (display: grid) {
+  .program__list{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-gap: 18px;
+  }
+  .pr__item{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 20px;
+    overflow: hidden;
+  }
+  .pr-right{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 12px;
+  }
+}
+
+.pr-item__title{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 12px;
+  line-height: 18px;
+}
+.pr__text{
+  font-size: 10px;
+  color: #3f4144;
+  line-height: 15px;
+}
+.pr__text p:not(:last-child){
+  margin-bottom: 12px;
+}
+.pr-item__linck{
+  display: inline-block;
+  font-size: 10px;
+  color: #fff;
+  background: #f26228;
+  padding: 0 3px;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.pr-item__num {
+  font-size: 42px;
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  position: relative;
+  padding-top: 10px;
+}
+.pr-item__num:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background: #ef7330;
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+}
+.pr__item:first-child .pr-item__num:after {
+  right: 8px;
+}
+.pr__item:first-child .pr-item__num {
+  padding-right: 8px;
 }
 
 /*****************************************************************************************/

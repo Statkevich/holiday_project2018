@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
+
     <title>Holiday Project</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css"/>
@@ -108,7 +110,7 @@
             <section class="demands">
             	<div class="demand__wrapper">
             		<p class="demands__title">[Требования к будущим студентам курса]:</p> 
-            		<div class="demands__text">
+            		<div class="demands__text slider">
             			<img class="demands__img" src="images/layer 7.png" alt="man with PC" width="272" height="296">
  						<ul class="demands__slider__list">
                        		<li class="slider__item">
@@ -128,27 +130,276 @@
                             	</p>
                        		</li>
                     	</ul>
+                        <a href="#" class="slider__btn slider__btn--l">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 					width="292.359px" height="292.359px" viewBox="0 0 292.359 292.359" 	 xml:space="preserve">
+							<g>
+							<path d="M222.979,5.424C219.364,1.807,215.08,0,210.132,0c-4.949,0-9.233,1.807-12.848,5.424L69.378,133.331
+							c-3.615,3.617-5.424,7.898-5.424,12.847c0,4.949,1.809,9.233,5.424,12.847l127.906,127.907c3.614,3.617,7.898,5.428,12.848,5.428
+							c4.948,0,9.232-1.811,12.847-5.428c3.617-3.614,5.427-7.898,5.427-12.847V18.271C228.405,13.322,226.596,9.042,222.979,5.424z"/>
+							</g>
+						</svg>
+                        </a>
+                        <a href="#" class="slider__btn slider__btn--r">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 					width="292.359px" height="292.359px" viewBox="0 0 292.359 292.359" style="enable-background:new 0 0 292.359 292.359;"
+	 					xml:space="preserve">
+							<g>
+							<path d="M222.979,133.331L95.073,5.424C91.456,1.807,87.178,0,82.226,0c-4.952,0-9.233,1.807-12.85,5.424
+							c-3.617,3.617-5.424,7.898-5.424,12.847v255.813c0,4.948,1.807,9.232,5.424,12.847c3.621,3.617,7.902,5.428,12.85,5.428
+							c4.949,0,9.23-1.811,12.847-5.428l127.906-127.907c3.614-3.613,5.428-7.897,5.428-12.847
+							C228.407,141.229,226.594,136.948,222.979,133.331z"/>
+							</g>
+						</svg>
+
+                        </a>
        				</div>
        			</div>     
             </section>
             <section class="program">
-            	<p>Программа курса</p>
-            	<ul>
-            		<li>01.</li>
-            		<li>02.</li>
-            		<li>03.</li>
-            		<li>03.</li>
-            		<li>05.</li>
-            		<li>06.</li>
-            		<li>07.</li>
-            		<li>08.</li>
-            		<li>09.</li>
-            		<li>10.</li>
-            		<li>11.</li>
-            		<li>12.</li>
-            		<li>13.</li>
-            		<li>14.</li>
-            	</ul>
+                <h3 class="title"><span>[Программа курса]</span></h3>
+                <ul class="program__list">
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O1.</span>
+                        </div>
+
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Подготовительный урок. Выбор ниши (темы) будущего сайта.</h4>
+                                <p>Что такое информационные сайты, как на них можно зарабатывать. Какие сейчас тенденции в инфосайтах, как стоит делать, а как не стоит. Параллели информационных сайтов и офлайн изданий (журналы, газеты и т.д.)</p>
+                                <p>Что такое ниша (тема) сайта, как ее правильно выбрать.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <div class="pr__text">
+                                    <p>Проанализировать и выбрать не менее 30 ниш. Отчет предоставить в виде Excel файла.</p>
+                                    <p>Как бонус вы получите список выжженых ниш (которые не стоит брать в работу)</p>
+                                    <p>Я лично выберу на основании своего опыта и ваших предпочтений вам нишу.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O2.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">CMS. Домен. Хостинг.</h4>
+                                <p>Что такое система управления контентом (CMS). Обзор CMS, которую мы будем использовать - Wordpress.</p>
+                                <p>Что такое домен, как его выбрать, купить. Критерии подбора хорошего домена.</p>
+                                <p>Что такое хостинг, как выбрать хороший хостинг. Рекомендации конкретных хостингов.</p>                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <div class="pr__text">
+                                    <p>На основании вашей ниши вы выбрать себе доменное имя, купить его.</p>
+                                    <p>Оплатить хостинг, привязать туда свое доменное имя, установить и настроить Wordpress.</p>
+                                    <p>На выходе вы получите готовый к наполнению сайт.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O3.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Панели Яндекс.Вебмастер и Google Search Console</h4>
+                                <p>Что такое Яндекс.Вебмастер и Google Search Console, для чего они нужны, как добавить туда свой сайт.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Создать краткое (одну-две) страницы текстовое описание своего сайта, добавить это описание на свой сайт.</p>
+                                <p> Добавить сайт в панели Яндекс. Вебмастер и Google Search Console.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O4.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Семантика — структура сайта</h4>
+                                <p>Что такое структура сайта, как правильно ее составить.</p>
+                                <p>Что такое семантическое ядро, почему оно так важно для сайта. Как правильно собрать семантическое ядро, какие для этого есть инструменты.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <div class="pr__text">
+                                    <p>Составить на основании анализа конкурентов и других источников структуру для вашего сайта.</p>
+                                    <p>Собрать вводные слова для сборки семантического ядра для вашей ниши.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O5.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Семантика — сбор семантического ядра</h4>
+                                <p>На основании собранных ключевых слов соберете семантическое ядро (набор слов, что относятся к этому сайту) с помощью программы KeyCollector.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <div class="pr__text">
+                                    <p>Собрать первую версию семантического ядра, готовую к разгруппировке.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O6.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Панели Яндекс.Вебмастер и Google Search Console</h4>
+                                <p>Разгруппируете собранное ранее семантическое ядро, получив группы ключей.</p>                                                         </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <div class="pr__text">
+                                    <p>Получить из неразгруппированого семантического ядра группы ключевых слов. Каждая группа - это тема одной будущей статьи на вашем сайте.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O7.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Составление ТЗ на написание статьи</h4>
+                                <p>Как из группы ключевых слов составить техническое задание на статью - для себя или копирайтера.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Проанализировать и выбрать не менее 30 ниш. Отчет предоставить в виде Excel файла.</p>
+                                <p>Как бонус вы получите список выжженых ниш (которые не стоит брать в работу)</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O8.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Поиск и подбор авторов (копирайтеров)</h4>
+                                <p>Кто такой копирайтер, как найти хорошего копирайтера. Обзор существующих бирж копирайтинга.</p>
+                                <p>Как работать с копирайтерами напрямую, плюсы и минусы такого подхода.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>На основании вашей ниши вы выбрать себе доменное имя, купить его.</p>
+                                <p>Оплатить хостинг, привязать туда свое доменное имя, установить и настроить Wordpress.</p>
+                                <p>На выходе вы получите готовый к наполнению сайт.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">O9.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Публикация статей на сайте.</h4>
+                                <p>Как опубликовать статью на сайте - структура статьи. Базовая SEO-оптимизация — Title, Keywords, Description.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Создать краткое (одну-две) страницы текстовое описание своего сайта, добавить это описание на свой сайт.</p>
+                                <p>Добавить сайт в панели Яндекс. Вебмастер и Google Search Console.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">10.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Уникальный дизайн сайта</h4>
+                                <p>Уникальный дизайн vs тема. Когда стоит заказывать уникальный дизайн.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Кастомизировать тему под себя - правкой CSS, добавлением виджетов, установкой дополнительных плагинов.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">11.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Семантика — сбор семантического ядра</h4>
+                                <p>Email и Push рассылки. Публикация анонсов статей в социальных сетях.</p>
+                                <p> Плагины для автоматизации этих процессов.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Зарегистрироваться в Sendplulse, добавить форму почтовой подписки, запрос на Push подписки.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">12.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Монетизация сайта контекстной рекламой</h4>
+                                <p>Обзор существующих методов монетизации. Белые, серые и черные варианты монетизации.</p>
+                                <p>Белая монетизация сайта контекстной рекламой. AB тестирование рекламы с целью достижения максимального дохода.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Добавиться в Google Adsense, разместить первую рекламу, заработать первые деньги.</p>
+                                <p>Как бонус, получите готовый Excel файл для AB тестирования.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">13.</span>
+                        </div>
+
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Сайты как бизнес — оценка доходов и расходов</h4>
+                                <p>Как и зачем оценивать доходность сайта. Как оптимизировать расходы, и увеличить доходы.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Кастомизировать тему под себя - правкой CSS, добавлением виджетов, установкой дополнительных плагинов.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="pr__item">
+                        <div>
+                            <span class = "pr-item__num">14.</span>
+                        </div>
+                        <div class="pr-right">
+                            <div class="pr__text">
+                                <h4 class="pr-item__title">Сайты как бизнес — автоматизация процессов с помощью Google Docs</h4>
+                                <p>Построение сайтов как конвейер. Что нужно знать, какие системы существуют.</p>
+                                <p>Построение своей бесплатной и гибкой системы на основе Google Docs.</p>
+                            </div>
+                            <div class="pr__text">
+                                <a href="#" class="pr-item__linck">Домашнее задание</a>
+                                <p>Создать таблицу в Google Spreadsheet для учета сайтов, продумать удобную структуру именно для вас.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
             </section>
             <section class="conditions"></section>
             <button class="button"><a href="#" class="button-link">Зарегистрироваться на курс</a></button>
