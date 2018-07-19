@@ -1,0 +1,131 @@
+@media (max-width: 881px) {
+    .info__block{
+        display: block;
+    }
+    .info__container {
+        padding-top: 24px;
+        padding-left: 0;
+    }
+
+}
+@media (max-width: 767px) {
+    .info__main-title,
+    .program .title span {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .skills__text {
+        width: auto;
+        padding-left: 0;
+    }
+    .skills__img{
+        margin: auto;
+        display: block;
+        width: 290px;
+        height: auto;
+    }
+    .skills__text:before{
+        content: none;
+    }
+    @supports (display: grid) {
+        .program__list{
+            display: grid;
+            grid-template-columns:  repeat(2, 1fr);
+            grid-gap: 18px;
+        }
+    }
+    .title__description{
+        width: auto;
+    }
+    .skills__block{
+        margin-top: 80px;
+    }
+    .header {
+        padding-bottom: 50px;
+    }
+    .skills__title{
+        width: auto;
+    }
+    .skills__block{
+        display: block;
+    }
+}
+@media (max-width: 561px) {
+    @supports (display: grid) {
+        .program__list{
+            display: grid;
+            grid-template-columns:  repeat(1, 1fr);
+            grid-gap: 18px;
+        }
+    }
+    .title__description{
+        padding: 0;
+    }
+    .title__description:before{
+        content: none;
+    }
+    .skills__img{
+        flex-basis: 100%;
+    }
+    .flex__wrap{
+        flex-wrap: wrap;
+    }
+    .demands__img{
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .demands__text{
+        flex-basis: 100%;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .program{
+        padding-top: 60px;
+    }
+}
+@media (max-width: 480px) {
+    .header .wrapper{
+        display: block;
+    }
+    .logo {
+        margin: auto;
+        display: block;
+        width: 128px;
+    }
+    .contacts{
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .info__slider{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .demands__title, .info__title, .title, .skills__title, .info__main-title, .program .title span {
+        font-size: 28px;
+        width: auto;
+    }
+    .skills__title, .info__main-title span, .skills__title span{
+        line-height: 1.4;
+    }
+
+    .cond__list {
+        width: 100%;
+        padding: 30px 44px;
+    }
+    .cond___item{
+        display: block;
+    }
+    .cond___bonus{
+        padding: 0;
+    }
+    .cond___bonus:before{
+        content: none;
+    }
+    .button{
+        width: 100%;
+        padding: 0 15px;
+
+    }
+}

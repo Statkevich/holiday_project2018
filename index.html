@@ -17,9 +17,9 @@
 
 <body class=" body">
     <header class="header">
-        <div class="wrapper-contacts">
-            <a class="logo" href="#" title="goit logo" target="_blank"> 
-                <img src="images/goit.png" width="128px" height="41px">
+        <div class="wrapper">
+            <a class="logo" href="/" title="goit logo" target="_blank">
+                <img src="images/goit.png">
             </a>
             <div class="contacts"> 
                 <p class="e-mail"><i class="material-icons">&#xe0be;</i>info@goit.ua 
@@ -38,17 +38,17 @@
     <main class="main-content">
         <div class="wrapper">
             <section class="info">
-                <h1 class="info__title title">Курс<br><span>[Бизнес на</span><br><span>информационных сайтах]</span></h1>
+                <h1 class="info__main-title "><span class="it__white">Курс</span><span>[Бизнес на</span><br><span>информационных сайтах]</span></h1>
                 <p class="title__description">Курс расскажет, как научиться делать информационные сайты, и зарабатывать на них.
                 </p>
                 <div class="info__block">
-                    <img class="info__img" src="images/Layer 5.png" alt="man with PC" width="416" height="514">
-                    <div class="info__wrapper"><span class="info__title">[Информационные сайты]</span> 
-                        <p class="info__text"> это сайты которые отвечают на вопросы людей. Например, сайт про рыбалку, про строительство дома, про приложения для 
+                    <img class="info__img" src="images/Layer 5.png" alt="man with PC">
+                    <div class="info__container"><h2 class="info__title">[Информационные сайты]</h2>
+                        <p class="info__text"> это сайты которые отвечают на вопросы людей. Например, сайт про рыбалку, про строительство дома, про приложения для
                         мобильных телефонов. Особенности таких сайтов - на них не продаюься никакие товары, деньги зарабатываются контекстной рекламой. При правильном 
                         подходе это хороший полопассивный способ зароботка денег.
                         </p> 
-                        <p class="info__text__add">Можно начать с одного сайта и заниматься этим как хобби, получая дополнительный доход. А можно сделать несколько сайтов и 
+                        <p class="info__text">Можно начать с одного сайта и заниматься этим как хобби, получая дополнительный доход. А можно сделать несколько сайтов и
                         сделать это основным сточником дохода.
                         </p>
                     </div>
@@ -98,18 +98,17 @@
             <section class="skills">
                 <div class="skills__block">
                     <div class="skills__wrapper">
-                    	<p class="skills__title">[После курса <span>ты сможешь]</span>:
-                    	</p> 
+                    	<h3 class="skills__title">[После курса <span>ты сможешь]</span>:</h3>
                         <p class="skills__text">Вы узнаете как создать пробыльный информационный сайт с нуля - от идеи до готового результата. В процессе курса вы создадите 
                         cвой первый сайт, наполните его первым контентом, разместите рекламу и заработаете первые деньги. 
                         </p>
                     </div>
-                    <img class="skills__img" src="images/photo.png" alt="man on the chair" width="416" height="514">
+                    <img class="skills__img" src="images/photo.png" alt="man on the chair">
                 </div>
             </section>
             <section class="demands">
             	<div class="demand__wrapper">
-            		<p class="demands__title">[Требования к будущим студентам курса]:</p>
+            		<h3 class="demands__title">[Требования к будущим студентам курса]:</h3>
                     <div class="flex__wrap">
                         <div class="demands__img">
                             <img src="images/demands.jpg" alt="man with PC">
@@ -405,8 +404,28 @@
                 </ul>
 
             </section>
-            <section class="conditions"></section>
-            <button class="button"><a href="#" class="button-link">Зарегистрироваться на курс</a></button>
+            <section class="conditions">
+                <ul class="cond__list">
+                    <li class="cond___item">
+                        <div class="cond__item--left"><span>Дата старта курса:</span></div>
+                        <div class="cond__item--right">осень 2018</div>
+                    </li>
+                    <li class="cond___item">
+                        <div class="cond__item--left"><span>Продолжительность</span><span>обучения:</span></div>
+                        <div class="cond__item--right">3 месяца</div>
+                    </li>
+                    <li class="cond___item">
+                        <div class="cond__item--left"><span >Стоимость обучения:</span></div>
+                        <div class="cond__item--right"><span class="old-price">14 900 грн</span><span>9 900 грн</span></div>
+                    </li>
+                    <li class="cond___bonus">
+                        <p>+ бонус доступ к  online курсу
+                            IT-english на 6 мес.</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- внутри кнопки ссылка не нужна, или то или другое. Лучше ссылка, так как кнопки используются в теге форм -->
+            <a href="#" class="button button-link">Зарегистрироваться на курс</a>
         </div>
      
     </main>
