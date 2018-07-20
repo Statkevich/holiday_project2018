@@ -171,8 +171,8 @@ a {
   justify-content: space-between;
 }
 .e-mail:hover,
-.phone-number a:hover,
-.phone-number i:hover{
+.phone-number:hover a,
+.phone-number:hover i{
   color: #ef7330;
 }
 
